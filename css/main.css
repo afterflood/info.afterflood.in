@@ -257,6 +257,15 @@ img {
 }
 
 .user-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+}
+
+.user-image-testimonials {
   width: 64px;
   height: 64px;
   border-radius: 50%;

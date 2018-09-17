@@ -557,6 +557,12 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }
+.checklist {
+  list-style: none;
+}
+.checklist-item:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 @media (max-width: 820px) {
   .main-menu {
     position: fixed;

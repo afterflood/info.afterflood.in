@@ -454,6 +454,14 @@ img {
 		top: initial;
 		bottom: 7px;
 	}
+}.linebreak {
+  word-spacing: 300px;
+}
+.team-card {
+  padding: 30px;
+  min-height: 460px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
 }@media (max-width: 820px) {
   .main-menu {
     position: fixed;
